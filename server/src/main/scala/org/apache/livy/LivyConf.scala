@@ -63,6 +63,7 @@ object LivyConf {
   val SERVER_PORT = Entry("livy.server.port", 8998)
 
   val UI_ENABLED = Entry("livy.ui.enabled", true)
+  val BATCH_ENABLED = Entry("livy.batch.enabled", true)
 
   val REQUEST_HEADER_SIZE = Entry("livy.server.request-header.size", 131072)
   val RESPONSE_HEADER_SIZE = Entry("livy.server.response-header.size", 131072)
